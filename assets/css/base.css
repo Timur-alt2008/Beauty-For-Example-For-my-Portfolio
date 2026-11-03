@@ -1,0 +1,102 @@
+/* ============ Tokens ============ */
+:root {
+  --ivory: #f7f2eb;
+  --linen: #efe7dc;
+  --sand: #e4d8c8;
+  --stone: #cbbba6;
+  --espresso: #241b16;
+  --cocoa: #4a3a30;
+  --ink: #2c221c;
+  --muted: #6f6056;
+  --champagne: #b08d5b;
+  --gold-text: #86663b;
+  --accent: #9a4e3c;
+  --line: rgba(36, 27, 22, .14);
+  --line-strong: rgba(36, 27, 22, .28);
+  --on-dark: #f3ebe0;
+  --on-dark-muted: rgba(243, 235, 224, .68);
+
+  --map-bg: #eee5d8; --map-road: #fbf8f3; --map-block: #e2d6c5; --map-river: #b9c4c0; --map-park: #d5dbc7;
+
+  --serif: 'Cormorant Garamond', 'Cormorant', Georgia, 'Times New Roman', serif;
+  --sans: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --radius: 18px;
+  --radius-sm: 10px;
+  --container: 1320px;
+  --gutter: clamp(16px, 4vw, 48px);
+  --header-h: 76px;
+  --ease: cubic-bezier(.22, .7, .18, 1);
+  --ease-soft: cubic-bezier(.4, 0, .2, 1);
+  --shadow: 0 30px 60px -30px rgba(36, 27, 22, .35);
+}
+
+/* ============ Reset ============ */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+html.is-locked, html.is-menu-open { overflow: hidden; }
+body {
+  margin: 0;
+  background: var(--ivory);
+  color: var(--ink);
+  font: 400 16px/1.65 var(--sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+img, svg, video { display: block; max-width: 100%; }
+img { height: auto; }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; background: none; border: 0; padding: 0; }
+button:disabled { cursor: not-allowed; }
+h1, h2, h3, h4, p, figure, blockquote, dl, dd, ol, ul { margin: 0; }
+ul, ol { padding: 0; list-style: none; }
+fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+::selection { background: var(--espresso); color: var(--ivory); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.skip { position: fixed; left: 16px; top: -60px; z-index: 200; background: var(--espresso); color: var(--ivory); padding: 10px 16px; border-radius: 999px; transition: top .3s; }
+.skip:focus-visible { top: 16px; }
+.noscript { padding: 40px; text-align: center; }
+
+/* ============ Type ============ */
+.display {
+  font-family: var(--serif);
+  font-weight: 300;
+  line-height: 1.02;
+  letter-spacing: -.015em;
+  font-size: clamp(2.3rem, 4.6vw, 4.2rem);
+  color: var(--espresso);
+}
+.display em, em.display { font-style: italic; font-weight: 300; color: var(--cocoa); }
+.eyebrow {
+  font: 600 .72rem/1.4 var(--sans);
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--gold-text);
+  margin-bottom: 18px;
+}
+.muted { color: var(--muted); }
+.fineprint { font-size: .82rem; color: var(--muted); margin-top: 16px; }
+
+.container { width: min(100% - 2 * var(--gutter), var(--container)); margin-inline: auto; }
+
+/* ============ Reveal animations ============ */
+[data-reveal] { opacity: 0; transform: translateY(28px); transition: opacity 1s var(--ease), transform 1.1s var(--ease); transition-delay: var(--d, 0ms); }
+[data-reveal].is-visible { opacity: 1; transform: none; }
+.reveal-mask { clip-path: inset(100% 0 0 0); transition: clip-path 1.4s var(--ease); transition-delay: var(--d, 0ms); }
+.is-in .reveal-mask, .reveal-mask.is-visible { clip-path: inset(0 0 0 0); }
+
+#main { min-height: 70vh; transition: opacity .5s var(--ease-soft); }
+#main.is-entering { opacity: 0; }
+#main:focus { outline: none; }
+
+img.is-missing { opacity: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; transition-delay: 0ms !important; }
+  [data-reveal] { opacity: 1; transform: none; }
+  .reveal-mask { clip-path: none; }
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://thecollectivehair.com/",
+  "method": "built-in browser pane on the user's Mac, page links + page text extraction (condensed)",
+  "robots": { "checked": true, "note": "robots.txt only lists a Sitemap line, no disallow rules" },
+  "booking": {
+    "vendor": "Square Appointments (squareup.com / square.site)",
+    "flow": "services -> staff -> time (vendor page itself not opened: the site was not approved in the browser pane, so not analysed)",
+    "perStylistBooking": "each team member has their own 'Book' link that preselects staff_id"
+  },
+  "sections": ["hero", "services list with one-paragraph descriptions (Blowout, Haircut, Hair Color, Keratin)", "our crew (name, role, Book)", "gift cards CTA in navigation", "contact"],
+  "takeaways": [
+    "Book directly from a specialist card with that specialist preselected",
+    "Service list with short human descriptions instead of a bare price table",
+    "Gift cards as a top-level navigation item"
+  ]
+}

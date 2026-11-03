@@ -1,0 +1,8 @@
+{"url":"https://www.albumhair.com/","robots":{"checked":true,"rootDisallowed":false},"viewport":"1440x900","pageHeight":5642,"tech":["WordPress","jQuery"],"booking":["mindbody"],
+"typography":{"fonts":["Jost (1196)","Baskervville (610)"],"h1":{"family":"Baskervville","size":"66px","weight":"400"},"h2":{"family":"Baskervville","size":"42px"},"body":{"family":"Jost","size":"20px","lh":"30px"}},
+"colors":{"backgrounds":["rgb(14, 48, 80)","rgb(243, 234, 217)","rgb(228, 186, 23)"]},
+"nav":{"headerPosition":"sticky","burger":true,"cta":["BOOK ONLINE"],"links":["SERVICES","BALAYAGE","HAIRCUTS","OUR TEAM","GALLERY","ABOUT","CONTACT","416-778-8892","BOOK ONLINE"]},
+"hero":{"images":1,"videos":0,"h1":"Balayage, colour and haircuts in Leslieville, Toronto"},
+"sections":["Hero (708px)","Info strip: address / hours / services / book (134px, grid)","Why Queen East books Album Hair","Colour, Cutting & Smoothing (grid)","The people who’ll do your hair (4 imgs, grid)","An award-winning salon","Address + photo","Before you book (FAQ, 902px)","Book, earn perks, keep your visit history"],
+"motion":{"transitions":0,"animations":0,"sticky":1,"keyframes":[]},"breakpoints":[320,375,479,600,767,768,991,1199],
+"components":{"priceMentions":7,"priceSamples":["$244","$109","$42","$85"],"team":true,"faq":1,"instagram":true},"images":{"total":8,"lazy":8,"withAlt":8},"buttons":{"radii":["0px (23)"],"upper":16,"normal":32}}

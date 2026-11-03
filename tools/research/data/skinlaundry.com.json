@@ -1,0 +1,25 @@
+{
+  "url": "https://www.skinlaundry.com/",
+  "method": "built-in browser pane on the user's Mac, condensed in-page analyzer + page text (2026-11-03)",
+  "robots": { "checked": true, "disallow": ["/api/"] },
+  "tech": { "next": true, "gsap": false, "swiper": false, "shopify": false },
+  "booking": { "vendor": "none detected in page URLs", "ctas": ["Book Now"], "note": "Book Now repeated per location card" },
+  "typography": { "h1": "Apris 48px weight 300", "h2": "Apris 36px weight 300", "body": "articulat-cf 16px" },
+  "palette": ["rgb(246,237,228) warm sand", "white", "rgb(94,50,23) cognac", "rgb(60,32,29) espresso", "rgb(26,19,18) near-black", "rgb(205,247,101) acid-lime accent"],
+  "motion": { "animations": 3, "transitions": 228, "sticky": 1, "heroVideos": 2 },
+  "images": { "total": 60, "lazy": 40 },
+  "sections": [
+    "announcement bar with first-visit offer",
+    "full-height (800px) slider of promo stories, each: heading + one-line + CTA",
+    "Discover - treatments entry",
+    "More Results. More You. - before/after carousel; each card: Before / After N Months, first name + age, concern | protocol, 'Individual results may vary.'",
+    "Location finder: state filter chips + cards with address, phone, Book Now",
+    "FAQ (5 expandable items)"
+  ],
+  "takeaways": [
+    "Before/after cards carry context (time span, concern, protocol) and an honest disclaimer",
+    "Light weight (300) display serif at moderate size reads premium without shouting",
+    "One small, unexpected accent colour against warm neutrals",
+    "First-visit offer surfaced in the announcement bar"
+  ]
+}

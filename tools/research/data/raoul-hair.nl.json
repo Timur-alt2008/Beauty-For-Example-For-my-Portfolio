@@ -1,0 +1,6 @@
+{"url":"https://www.raoul-hair.nl/","robots":{"checked":false,"note":"no robots.txt served","rootDisallowed":false},"pageHeight":7832,"tech":["Webflow"],
+"typography":{"fonts":["Fahkwang (934)","Eklips (333)","Bonvivant (216)"],"h1":{"family":"Eklips","size":"81px","transform":"uppercase","ls":"0.5px","text":"CONFIDENCE IS THE BEST HAIRSTYLE"},"accentScript":"Bonvivant ('treat yourself' overlaid on the h1)"},
+"colors":["rgb(242, 230, 216)","rgb(52, 44, 36)","rgb(196, 161, 104)"],"hero":{"videos":1,"note":"video inset in a frame, not full-bleed; announcement marquee above header"},
+"nav":{"position":"static","burger":"MENU label + lines"},
+"sections":["Hero (785px)","EEN SALON WAAR TIJD & AANDACHT CENTRAAL STAAN","Image band","4-image collage","ONZE BEHANDELINGEN (treatments, 1255px)","WE WERKEN MET TOP-PRODUCTEN","GUN JEZELF OOK TIJD & AANDACHT (CTA)","Footer collage"],
+"motion":{"transitions":24,"animations":2,"sticky":1,"classHints":["marquee-text (8)","marquee-content (2)"]}}

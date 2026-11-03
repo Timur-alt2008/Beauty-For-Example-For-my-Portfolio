@@ -1,0 +1,17 @@
+{
+  "url": "https://www.aman.com/spa (redirected to https://www.aman.com/)",
+  "method": "built-in browser pane on the user's Mac, condensed in-page analyzer (2026-11-03)",
+  "robots": { "checked": true, "disallow": ["/core/", "/profiles/", "/README.txt", "/web.config", "/admin/", "/comment/reply/"] },
+  "tech": { "gsap": false, "swiper": false, "next": false },
+  "typography": { "body": "Lyon Display Web (serif) 14px", "h2": "Lyon Text 31px weight 400 ls 0.5px", "h3": "Lyon Text 19.6px ls 0.98px", "eyebrows": "small uppercase tracked labels above headings (e.g. 'FESTIVE HIGHLIGHT', 'HOTELS & RESORTS')" },
+  "palette": ["white", "rgb(230,226,219) stone", "rgb(253,249,245) ivory", "rgb(243,238,231) linen", "rgb(64,64,64) graphite"],
+  "navigation": "header shows only 'Menu' + 'Reserve'; everything else lives in a full-screen overlay menu with a Back step",
+  "motion": { "animations": 44, "transitions": 66, "fixed": 8, "sticky": 2, "easing": ["0.35s ease-in-out", "0.4s ease", "0.5s ease-in-out", "0.6s ease"] },
+  "content": { "words": 695, "images": 18, "lazy": 13 },
+  "takeaways": [
+    "Extreme restraint: under 700 words on the home page, few large images",
+    "Two-item header (Menu / Reserve) + overlay menu keeps the first screen calm",
+    "Eyebrow label + serif heading pairing for every section",
+    "Slow, soft transitions (0.35-0.6s) instead of bouncy motion"
+  ]
+}

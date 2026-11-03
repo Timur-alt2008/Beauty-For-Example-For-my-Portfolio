@@ -1,0 +1,7 @@
+{"url":"https://www.heydayskincare.com/","robots":{"checked":true,"rootDisallowed":false,"disallow":["/admin","/cart/","/checkout"]},"pageHeight":5860,"tech":["Swiper","Shopify","AOS"],"booking":["own subdomain: webbooking.heydayskincare.com (iframe)"],
+"typography":{"fonts":["SunsetGothicLight (1718)","SunsetGothicRegular (354)"],"h1":{"size":"72px","ls":"-2.16px","weight":"400"},"body":{"size":"16px","lh":"24px"}},
+"colors":{"backgrounds":["rgb(255, 252, 248)","rgb(242, 247, 253)","rgb(255, 255, 255)","rgb(252, 234, 168)"],"text":["rgb(15, 42, 89)"]},
+"nav":{"headerPosition":"static","cta":["Manage Appointments","BOOK A FACIAL","BOOK AND SAVE NOW"]},"hero":{"videos":1,"images":2},
+"sections":["$30 off your first facial (hero carousel, 8 imgs)","Marquee strip","The most trusted hands — vertical tab module (Trusted hands / Next-level customization / Accelerated results / Skincare beyond the chair)","Skin renewal animation","Over 1 million facials for a reason (stats grid)","Not just loved—trusted (reviews carousel)","Monthly membership (grid)","Newsletter"],
+"motion":{"transitions":16,"clip":5,"maskImage":42,"dataAttrs":{"data-aos":35},"classHints":["fade-in-visible","tab-title","marquee-track","swiper-fade","reviews-carousel"]},
+"components":{"faq":9,"galleryImgs":16,"giftCards":true,"membership":true,"testimonials":true,"forms":[{"inputs":2,"types":"email,submit"}]},"images":{"total":50,"cover":15,"withAlt":42},"buttons":{"radii":["0px (45)","24px (15)","4px (7)"]}}

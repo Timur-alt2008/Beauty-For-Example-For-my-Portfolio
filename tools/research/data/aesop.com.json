@@ -1,0 +1,6 @@
+{"url":"https://www.aesop.com/","robots":{"checked":true,"rootDisallowed":false,"disallow":["/cart","/account","/register"]},"pageHeight":7662,"tech":["AOS"],
+"typography":{"fonts":["SuisseIntl (1298)","SuisseIntl-Medium (361)","Zapf-Humanist (276)"],"h1":{"size":"30px","weight":"400"},"body":"14px"},
+"colors":["rgb(37, 37, 37)","rgb(255, 254, 242)","rgb(51, 51, 51)","rgb(246, 245, 232)"],"hero":{"videos":1,"images":2},
+"sections":["Hero video","Festive Gift Kits (carousel, 14 imgs)","Browse by category","An end to aimless searching (editorial split)","Curated Sets","A time to embrace","Certified B Corp","A neighbourly presence (stores)","Recommended reading","Literary quote"],
+"motion":{"transitions":82,"animations":1,"timing":["0.25s ease-out (23)","0.2s ease (19)","0.4s ease (12)","0.5s ease-out (8)"],"classHints":["m-accordion-control (30)","c-carousel__item (25)","c-carousel__pagination-bullet (13)"]},
+"images":{"total":72,"lazy":63},"buttons":["0px (23)","50% (3)"]}
