@@ -4,6 +4,8 @@ A demo website for a quiet luxury beauty salon — hair, skin, nails, body and m
 Built as a portfolio project: the salon, people, prices and reviews are fictional, and bookings
 and gift cards run in test mode (saved only in your browser).
 
+**Live site:** https://timur-alt2008.github.io/Beauty-For-Example-For-my-Portfolio/
+
 ## Features
 
 - **Home** — animated hero with a live "next free appointment", visit info strip with open/closed status,

@@ -58,6 +58,9 @@ function onScroll() {
   if (!ticking) { ticking = true; requestAnimationFrame(parallax); }
 }
 
+// Each page starts at the top (reveal animations rely on it), even after a reload.
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+
 mountShell();
 
 startRouter(routes, {
